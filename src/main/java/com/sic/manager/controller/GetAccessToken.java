@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.sic.manager.pojo.Token;
-import com.sic.manager.utils.HttpClientUtil;
-import com.sic.manager.utils.JsonUtils;
+import com.sic.utils.HttpClientUtil;
+import com.sic.utils.JsonUtils;
 
 
 @Controller 

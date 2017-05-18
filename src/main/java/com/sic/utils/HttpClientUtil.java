@@ -1,4 +1,4 @@
-package com.sic.manager.utils;
+package com.sic.utils;
 
 import java.io.IOException;
 import java.net.URI;
