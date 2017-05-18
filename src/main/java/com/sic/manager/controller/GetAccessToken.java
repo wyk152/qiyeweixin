@@ -23,7 +23,7 @@ public class GetAccessToken {
      * @param clazz 对象中的object类型
      * @return
      */
-	@RequestMapping("get")
+	@RequestMapping("/get")
 	@ResponseBody
 	public Token getToken(){
 		
