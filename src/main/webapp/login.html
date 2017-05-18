@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+<title>登录页面</title>
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/login.css">
+
+</head>
+
+<body ng-app="dpCms" ng-controller="loginCtrl">
+    <div style="text-align:center;">
+	<h1>源码:<a href="https://github.com/wyk152/kycms">https://github.com/wyk152/kycms</a></h1>
+	</div>
+<div class="login">
+	<h1>DPCMS登录</h1>
+
+	<form autocomplete="off" ng-submit="processForm()">
+		<input type="text" name="username" placeholder="admin" required="required" ng-model="formData.username"/>
+		<input type="password" name="password" placeholder="admin" required="required" ng-model="formData.password"/>
+		<input type="text" name="logincode" required="required" placeholder="请输入验证码!" ng-model="formData.logincode"/>
+		<img ng-src="{{ imgCodeSrc }}" ng-click="changeImgCode()" />
+		<button type="submit" class="btn btn-primary btn-block btn-large">登录</button>　 {{msg}}
+	</form>
+</div>
+   
+</body>
+<script src="angular/angular.min.js"></script>
+<script src="js/controller/login.js"></script>
+</html>
