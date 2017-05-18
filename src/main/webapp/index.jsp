@@ -5,8 +5,26 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/Vue.min.js"></script>
+<script type="text/javascript" src="js/angular.min.js"></script>
 </head>
 <body>
-gf 
+<div id="app">
+  <p>{{ message }}</p>
+</div>
+<div ng-app="">
+	<p>名字 : <input type="text" ng-model="name"></p>
+	 Hello {{name}}
+</div>
 </body>
+
+<script>
+	new Vue({
+		  el: '#app',
+		  data: {
+		    message: 'Hello Vue.js!'
+		  }
+		})
+</script>
 </html>

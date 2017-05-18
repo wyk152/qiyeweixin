@@ -27,7 +27,7 @@ public class GetAccessToken {
 	@ResponseBody
 	public Token getToken(){
 		
-		//企业号
+		//企业号CorpID:ww416cc8a6998d10d7 
 		/*Map<String, String> param = new HashMap<>();
 		param.put("corpid", "wx5fa6b9aa2465df3f");
 		param.put("corpsecret", "piphKpeHPG_tOhqWhNkmTeIg6M7A31_YUntbJ_qlfWctXZQ0F32LZB5tMsO0aeUD");
@@ -35,7 +35,7 @@ public class GetAccessToken {
 		System.out.println(doGet);
 		Token token = JsonUtils.jsonToPojo(doGet, Token.class);*/
 		
-		//公众号
+		//公众号(测试号)
 		
 		Map<String, String> param = new HashMap<>();
 		param.put("appid", "wx713e22041688a79b");
