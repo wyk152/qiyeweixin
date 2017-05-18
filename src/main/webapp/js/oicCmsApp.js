@@ -1,0 +1,1 @@
+var oicCmsApp = angular.module('oicCmsApp', ['ngMaterial']);

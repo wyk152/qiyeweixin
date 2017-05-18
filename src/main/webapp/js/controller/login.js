@@ -1,4 +1,4 @@
-var app = angular.module('dpCms', []);  
+var app = angular.module('oicCms', []);  
 
 app.controller('loginCtrl', function($scope, $http , $httpParamSerializer) {
 	$scope.formData = {};
