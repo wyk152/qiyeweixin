@@ -6,7 +6,7 @@
 
 // ------------------------------------------------------------------------
 
-package com.sic.manager.secret;
+package com.sic.secret;
 
 import java.nio.charset.Charset;
 import java.util.Arrays;

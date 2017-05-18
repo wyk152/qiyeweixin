@@ -1,4 +1,4 @@
-﻿package com.sic.manager.secret;
+﻿package com.sic.secret;
 
 @SuppressWarnings("serial")
 public class AesException extends Exception {
