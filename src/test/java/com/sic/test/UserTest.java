@@ -7,8 +7,8 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.sic.mapper.UserMapper;
-import com.sic.pojo.User;
+import com.sic.manager.dao.UserMapper;
+import com.sic.manager.pojo.User;
 import com.sic.utils.HttpClientUtil;
 
 public class UserTest {
