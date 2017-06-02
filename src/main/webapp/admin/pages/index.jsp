@@ -29,7 +29,7 @@
     
     <link href="../css/tree.css" rel="stylesheet">
   <!--   <link rel="stylesheet" href="/sic/zTree/css/demo.css" type="text/css"> -->
-    <link rel="stylesheet" href="/sic/zTree/css/zTreeStyle/zTreeStyle.css" type="text/css"> 
+    <link rel="stylesheet" href="../../zTree/css/zTreeStyle/zTreeStyle.css" type="text/css"> 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,8 +38,8 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script type="text/javascript" src="../js/jquery.min.js"></script>
-    <script src="/sic/vue/lib/vue.js"></script>
-   
+    <script src="../../vue/lib/vue.js"></script>
+  
  	<SCRIPT type="text/javascript">
 		var setting = {
 			check: {
@@ -189,8 +189,8 @@
     <script src="../dist/js/sb-admin-2.js"></script>
     <script src="../js/tree.js"></script>
 
-	<script type="text/javascript" src="/sic/admin/js/jquery.ztree.core.js"></script>
-	<script type="text/javascript" src="/sic/admin/js/jquery.ztree.excheck.js"></script>
+	<script type="text/javascript" src="../../zTree/js/jquery.ztree.core.js"></script>
+	<script type="text/javascript" src="../../zTree/js/jquery.ztree.excheck.js"></script>
 </body>
 
 </html>
